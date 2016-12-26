@@ -64,3 +64,51 @@ Korisnikot otvori slika
 Обработена слика со Лаплас Алгоритмот
 12/26/2016 5:19:06 PM Information 
 Обработена слика со Лаплас Алгоритмот
+12/26/2016 6:12:26 PM Information 
+Najaven Korisnik
+12/26/2016 6:13:35 PM Information 
+Korisnikot otvori slika
+12/26/2016 6:15:57 PM Information 
+Обработена слика со Кени Алгоритмот
+12/26/2016 6:20:02 PM Information 
+Najaven Korisnik
+12/26/2016 6:20:06 PM Information 
+Korisnikot otvori slika
+12/26/2016 6:20:53 PM Information 
+Обработена слика со Криш Филтер
+12/26/2016 6:21:18 PM Information 
+Najaven Korisnik
+12/26/2016 6:21:23 PM Information 
+Korisnikot otvori slika
+12/26/2016 6:25:51 PM Information 
+Обработена слика со Лаплас Алгоритмот
+12/26/2016 6:33:10 PM Information 
+Najaven Korisnik
+12/26/2016 6:33:21 PM Information 
+Korisnikot otvori slika
+12/26/2016 6:33:27 PM Information 
+Обработена слика со Кени Алгоритмот
+12/26/2016 6:33:38 PM Information 
+Обработена слика со Лаплас Алгоритмот
+12/26/2016 6:33:42 PM Information 
+Обработена слика со Криш Филтер
+12/26/2016 6:33:47 PM Information 
+Korisnikot otvori slika
+12/26/2016 6:33:49 PM Information 
+Обработена слика со Криш Филтер
+12/26/2016 6:33:56 PM Information 
+Обработена слика со Лаплас Алгоритмот
+12/26/2016 6:36:51 PM Information 
+Najaven Korisnik
+12/26/2016 6:36:56 PM Information 
+Korisnikot otvori slika
+12/26/2016 6:40:24 PM Information 
+Обработена слика со Кени Алгоритмот
+12/26/2016 7:07:03 PM Information 
+Обработена слика со Лаплас Алгоритмот
+12/26/2016 7:08:19 PM Information 
+Najaven Korisnik
+12/26/2016 7:08:23 PM Information 
+Korisnikot otvori slika
+12/26/2016 7:08:44 PM Information 
+Обработена слика со Криш Филтер
