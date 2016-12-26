@@ -1,0 +1,66 @@
+12/23/2016 11:33:57 PM Warning 
+Грешка при логирање
+12/23/2016 11:34:48 PM Information 
+Внесен е нов корисник
+12/23/2016 11:34:57 PM Information 
+Najaven Korisnik
+12/23/2016 11:35:06 PM Information 
+Korisnikot otvori slika
+12/23/2016 11:35:48 PM Information 
+Обработена слика со Собел Алгоритмот
+12/23/2016 11:36:16 PM Information 
+Korisnikot otvori slika
+12/23/2016 11:37:46 PM Information 
+Обработена слика со Лаплас Алгоритмот
+12/24/2016 12:42:20 AM Information 
+Najaven Korisnik
+12/24/2016 12:42:30 AM Information 
+Korisnikot otvori slika
+12/24/2016 12:43:18 AM Information 
+Обработена слика со Собел Алгоритмот
+12/24/2016 12:43:28 AM Information 
+Korisnikot otvori slika
+12/25/2016 1:39:18 PM Information 
+Najaven Korisnik
+12/25/2016 1:39:26 PM Information 
+Korisnikot otvori slika
+12/25/2016 1:40:06 PM Information 
+Обработена слика со Кени Алгоритмот
+12/25/2016 1:48:44 PM Information 
+Najaven Korisnik
+12/25/2016 1:48:57 PM Information 
+Korisnikot otvori slika
+12/25/2016 1:51:49 PM Information 
+Najaven Korisnik
+12/25/2016 1:51:59 PM Information 
+Korisnikot otvori slika
+12/25/2016 1:58:38 PM Information 
+Обработена слика со Кени Алгоритмот
+12/25/2016 1:58:55 PM Information 
+Korisnikot otvori slika
+12/25/2016 1:59:04 PM Information 
+Обработена слика со Кени Алгоритмот
+12/25/2016 1:59:23 PM Information 
+Обработена слика со Лаплас Алгоритмот
+12/25/2016 1:59:28 PM Information 
+Korisnikot otvori slika
+12/25/2016 1:59:44 PM Information 
+Обработена слика со Лаплас Алгоритмот
+12/25/2016 4:16:12 PM Information 
+Najaven Korisnik
+12/25/2016 4:17:49 PM Information 
+Korisnikot otvori slika
+12/25/2016 4:17:58 PM Information 
+Обработена слика со Кени Алгоритмот
+12/26/2016 5:17:21 PM Information 
+Najaven Korisnik
+12/26/2016 5:17:31 PM Information 
+Korisnikot otvori slika
+12/26/2016 5:17:36 PM Information 
+Обработена слика со Лаплас Алгоритмот
+12/26/2016 5:18:11 PM Information 
+Korisnikot otvori slika
+12/26/2016 5:18:21 PM Information 
+Обработена слика со Лаплас Алгоритмот
+12/26/2016 5:19:06 PM Information 
+Обработена слика со Лаплас Алгоритмот

@@ -1,0 +1,30 @@
+C:\Users\Martin Cvetkovski\Documents\Visual Studio 2015\Projects\ObrSlika-master\ObrSlika\bin\Debug\ObrSlika.exe.config
+C:\Users\Martin Cvetkovski\Documents\Visual Studio 2015\Projects\ObrSlika-master\ObrSlika\bin\Debug\ObrSlika.exe
+C:\Users\Martin Cvetkovski\Documents\Visual Studio 2015\Projects\ObrSlika-master\ObrSlika\bin\Debug\ObrSlika.pdb
+C:\Users\Martin Cvetkovski\Documents\Visual Studio 2015\Projects\ObrSlika-master\ObrSlika\bin\Debug\EntityFramework.dll
+C:\Users\Martin Cvetkovski\Documents\Visual Studio 2015\Projects\ObrSlika-master\ObrSlika\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Martin Cvetkovski\Documents\Visual Studio 2015\Projects\ObrSlika-master\ObrSlika\bin\Debug\EntityFramework.xml
+C:\Users\Martin Cvetkovski\Documents\Visual Studio 2015\Projects\ObrSlika-master\ObrSlika\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Martin Cvetkovski\Documents\Visual Studio 2015\Projects\ObrSlika-master\ObrSlika\obj\Debug\ObrSlika.csprojResolveAssemblyReference.cache
+C:\Users\Martin Cvetkovski\Documents\Visual Studio 2015\Projects\ObrSlika-master\ObrSlika\obj\Debug\ObrSlika.login.resources
+C:\Users\Martin Cvetkovski\Documents\Visual Studio 2015\Projects\ObrSlika-master\ObrSlika\obj\Debug\ObrSlika.Properties.Resources.resources
+C:\Users\Martin Cvetkovski\Documents\Visual Studio 2015\Projects\ObrSlika-master\ObrSlika\obj\Debug\ObrSlika.Registriraj.resources
+C:\Users\Martin Cvetkovski\Documents\Visual Studio 2015\Projects\ObrSlika-master\ObrSlika\obj\Debug\ObrSlika.Slika.resources
+C:\Users\Martin Cvetkovski\Documents\Visual Studio 2015\Projects\ObrSlika-master\ObrSlika\obj\Debug\ObrSlika.csproj.GenerateResource.Cache
+C:\Users\Martin Cvetkovski\Documents\Visual Studio 2015\Projects\ObrSlika-master\ObrSlika\obj\Debug\ObrSlika.exe
+C:\Users\Martin Cvetkovski\Documents\Visual Studio 2015\Projects\ObrSlika-master\ObrSlika\obj\Debug\ObrSlika.pdb
+C:\Users\Martin Cvetkovski\Source\Repos\EdgeDetection\ObrSlika-master\ObrSlika\bin\Debug\ObrSlika.exe.config
+C:\Users\Martin Cvetkovski\Source\Repos\EdgeDetection\ObrSlika-master\ObrSlika\obj\Debug\ObrSlika.exe
+C:\Users\Martin Cvetkovski\Source\Repos\EdgeDetection\ObrSlika-master\ObrSlika\obj\Debug\ObrSlika.pdb
+C:\Users\Martin Cvetkovski\Source\Repos\EdgeDetection\ObrSlika-master\ObrSlika\bin\Debug\ObrSlika.exe
+C:\Users\Martin Cvetkovski\Source\Repos\EdgeDetection\ObrSlika-master\ObrSlika\bin\Debug\ObrSlika.pdb
+C:\Users\Martin Cvetkovski\Source\Repos\EdgeDetection\ObrSlika-master\ObrSlika\bin\Debug\EntityFramework.dll
+C:\Users\Martin Cvetkovski\Source\Repos\EdgeDetection\ObrSlika-master\ObrSlika\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Martin Cvetkovski\Source\Repos\EdgeDetection\ObrSlika-master\ObrSlika\bin\Debug\EntityFramework.xml
+C:\Users\Martin Cvetkovski\Source\Repos\EdgeDetection\ObrSlika-master\ObrSlika\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Martin Cvetkovski\Source\Repos\EdgeDetection\ObrSlika-master\ObrSlika\obj\Debug\ObrSlika.csprojResolveAssemblyReference.cache
+C:\Users\Martin Cvetkovski\Source\Repos\EdgeDetection\ObrSlika-master\ObrSlika\obj\Debug\ObrSlika.login.resources
+C:\Users\Martin Cvetkovski\Source\Repos\EdgeDetection\ObrSlika-master\ObrSlika\obj\Debug\ObrSlika.Properties.Resources.resources
+C:\Users\Martin Cvetkovski\Source\Repos\EdgeDetection\ObrSlika-master\ObrSlika\obj\Debug\ObrSlika.Registriraj.resources
+C:\Users\Martin Cvetkovski\Source\Repos\EdgeDetection\ObrSlika-master\ObrSlika\obj\Debug\ObrSlika.Slika.resources
+C:\Users\Martin Cvetkovski\Source\Repos\EdgeDetection\ObrSlika-master\ObrSlika\obj\Debug\ObrSlika.csproj.GenerateResource.Cache
