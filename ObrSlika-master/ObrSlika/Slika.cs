@@ -179,7 +179,80 @@ namespace ObrSlika
             }
         }
 
-       
+        public Bitmap FilterProcessImage(Bitmap image)
+        {
+            Bitmap ret = new Bitmap(image.Width, image.Height);
+            for (int i = 1; i < image.Width - 1; i++)
+            {
+                for (int j = 1; j < image.Height - 1; j++)
+                {
+                    Color cr = image.GetPixel(i + 1, j);
+                    Color cl = image.GetPixel(i - 1, j);
+                    Color cu = image.GetPixel(i, j - 1);
+                    Color cd = image.GetPixel(i, j + 1);
+                    Color cld = image.GetPixel(i - 1, j + 1);
+                    Color clu = image.GetPixel(i - 1, j - 1);
+                    Color crd = image.GetPixel(i + 1, j + 1);
+                    Color cru = image.GetPixel(i + 1, j - 1);
+                    int power = getMaxD(cr.R, cl.R, cu.R, cd.R, cld.R, clu.R, cru.R, crd.R);
+                    if (power > 50)
+                        ret.SetPixel(i, j, Color.Yellow);
+                    else
+                        ret.SetPixel(i, j, Color.Black);
+                }
+            }
+            return ret;
+        }
+
+private int getD(int cr, int cl, int cu, int cd, int cld, int clu, int cru, int crd, int[,] matrix)
+        {
+            return Math.Abs(matrix[0, 0] * clu + matrix[0, 1] * cu + matrix[0, 2] * cru
+               + matrix[1, 0] * cl + matrix[1, 2] * cr
+                  + matrix[2, 0] * cld + matrix[2, 1] * cd + matrix[2, 2] * crd);
+        }
+        private int getMaxD(int cr, int cl, int cu, int cd, int cld, int clu, int cru, int crd)
+        {
+            int max = int.MinValue;
+            for (int i = 0; i < templates.Count; i++)
+            {
+                int newVal = getD(cr, cl, cu, cd, cld, clu, cru, crd, templates[i]);
+                if (newVal > max)
+                    max = newVal;
+            }
+            return max;
+        }
+        private List<int[,]> templates = new List<int[,]>
+{
+   new int[,] {{ -3, -3, 5 }, { -3, 0, 5 }, { -3, -3, 5 } },
+   new int[,] {{ -3, 5, 5 }, { -3, 0, 5 }, { -3, -3, -3 } },
+   new int[,] {{ 5, 5, 5 }, { -3, 0, -3 }, { -3, -3, -3 } },
+   new int[,] {{ 5, 5, -3 }, { 5, 0, -3 }, { -3, -3, -3 } },
+   new int[,] {{ 5, -3, -3 }, { 5, 0, -3 }, { 5, -3, -3 } },
+   new int[,] {{ -3, -3, -3 }, { 5, 0, -3 }, { 5, 5, -3 } },
+   new int[,] {{ -3, -3, -3 }, { -3, 0, -3 }, { 5, 5, 5 } },
+   new int[,] {{ -3, -3, -3 }, { -3, 0, 5 }, { -3, 5, 5 } }
+};
+
+        private void филтерToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            {
+                if (pat_slika == "") MessageBox.Show("Немате одбрано слика, Обидете се повторно");
+                else
+                {
+                    pBox.Invalidate();
+                    prg1.Invalidate();
+                    prg1.Value = 0;
+                    Bitmap p = new Bitmap(pat_slika);
+                    Bitmap obr = (Bitmap)FilterProcessImage(p);
+                    pBox.Image = new Bitmap(obr);
+                    LogFile.WriteInformationLog("Обработена слика со Криш Филтер");
+
+
+
+                }
+            }
+        }
     }
+
 }
 

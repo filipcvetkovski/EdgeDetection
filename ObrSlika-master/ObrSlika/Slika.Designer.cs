@@ -34,6 +34,7 @@
             this.обработкаНаСликаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.CannyАлгоритамToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.LaplasАлгоритамToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.филтерToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.одјавиСеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.prg1 = new System.Windows.Forms.ProgressBar();
             this.pBox = new System.Windows.Forms.PictureBox();
@@ -72,7 +73,8 @@
             // 
             this.обработкаНаСликаToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.CannyАлгоритамToolStripMenuItem,
-            this.LaplasАлгоритамToolStripMenuItem});
+            this.LaplasАлгоритамToolStripMenuItem,
+            this.филтерToolStripMenuItem});
             this.обработкаНаСликаToolStripMenuItem.Name = "обработкаНаСликаToolStripMenuItem";
             this.обработкаНаСликаToolStripMenuItem.Size = new System.Drawing.Size(130, 20);
             this.обработкаНаСликаToolStripMenuItem.Text = "Обработка на слика";
@@ -90,6 +92,13 @@
             this.LaplasАлгоритамToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
             this.LaplasАлгоритамToolStripMenuItem.Text = "Лаплас Алгоритам";
             this.LaplasАлгоритамToolStripMenuItem.Click += new System.EventHandler(this.LaplasАлгоритамToolStripMenuItem_Click);
+            // 
+            // филтерToolStripMenuItem
+            // 
+            this.филтерToolStripMenuItem.Name = "филтерToolStripMenuItem";
+            this.филтерToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
+            this.филтерToolStripMenuItem.Text = "Криш Филтер";
+            this.филтерToolStripMenuItem.Click += new System.EventHandler(this.филтерToolStripMenuItem_Click);
             // 
             // одјавиСеToolStripMenuItem
             // 
@@ -150,7 +159,7 @@
         private System.Windows.Forms.ProgressBar prg1;
         private System.Windows.Forms.PictureBox pBox;
         private System.Windows.Forms.ToolStripMenuItem одјавиСеToolStripMenuItem;
-        
+        private System.Windows.Forms.ToolStripMenuItem филтерToolStripMenuItem;
     }
 }
 
