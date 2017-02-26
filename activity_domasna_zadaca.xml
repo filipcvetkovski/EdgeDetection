@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_domasna_zadaca"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Enter Twitter search query here"
+        android:ems="10"
+        android:id="@+id/twitter" />
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:columnCount="2"
+        android:rowCount="1"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:text="Tag your query "
+            android:textAlignment="center"
+            android:id="@+id/query"></EditText>
+        <Button
+            android:id="@+id/save"
+            android:layout_gravity="right|top"
+            android:text="Save" />/>
+
+    </GridLayout>
+
+    <FrameLayout
+        android:layout_width="370dp"
+        android:layout_height="370dp"
+        android:backgroundcolor="3"
+        tools:background="@android:color/holo_orange_light"
+        android:id="@+id/frame1">
+        <TableLayout
+            android:id="@+id/con1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25pt"
+            android:layout_marginRight="25pt"
+            android:gravity="center"
+            android:orientation="vertical" >
+            <TableRow android:layout_width="match_parent" android:gravity="center">
+
+
+            </TableRow>
+
+            <TableRow android:layout_width="fill_parent">
+
+
+                <EditText
+                    android:id="@+id/Tagged Searches1"
+                    android:layout_width="20pt"
+                    android:layout_height="wrap_content"
+                    android:text="Tagged Searches"
+                    android:layout_x="54px"
+                    android:layout_y="80px"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    android:layout_weight="0.5">
+                </EditText>
+            </TableRow>
+
+
+            <TableRow>
+
+                <LinearLayout >
+                    <Button
+                        android:id="@+id/btn1"
+                        android:layout_width="70pt"
+                        android:layout_height="wrap_content"
+                        android:layout_x="52px"
+                        android:layout_y="200px"
+                        android:text="AndroidFP"
+                        android:layout_gravity="left|top"
+                        android:layout_weight="0.025">
+                    </Button>
+
+                    <Button
+                        android:id="@+id/btnEdit1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="123dp"
+                        android:layout_y="201px"
+                        android:text="Edit"
+                        android:layout_weight="0.03">
+                    </Button>
+                </LinearLayout>
+            </TableRow>
+            <TableRow>
+
+                <LinearLayout >
+                    <Button
+                        android:id="@+id/btn2"
+                        android:layout_width="70pt"
+                        android:layout_height="wrap_content"
+                        android:layout_x="52px"
+                        android:layout_y="200px"
+                        android:text="Deitel"
+                        android:layout_gravity="left|top"
+                        android:layout_weight="0.025">
+                    </Button>
+
+                    <Button
+                        android:id="@+id/btnEdit2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="123dp"
+                        android:layout_y="201px"
+                        android:text="Edit"
+                        android:layout_weight="0.03">
+                    </Button>
+                </LinearLayout>
+            </TableRow>
+            <TableRow>
+
+                <LinearLayout >
+                    <Button
+                        android:id="@+id/btn3"
+                        android:layout_width="70pt"
+                        android:layout_height="wrap_content"
+                        android:layout_x="52px"
+                        android:layout_y="200px"
+                        android:text="Google"
+                        android:layout_gravity="left|top"
+                        android:layout_weight="0.025">
+                    </Button>
+
+                    <Button
+                        android:id="@+id/btnEdit3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="123dp"
+                        android:layout_y="201px"
+                        android:text="Edit"
+                        android:layout_weight="0.03">
+                    </Button>
+                </LinearLayout>
+            </TableRow>
+            <TableRow>
+
+                <LinearLayout >
+                    <Button
+                        android:id="@+id/btn4"
+                        android:layout_width="70pt"
+                        android:layout_height="wrap_content"
+                        android:layout_x="52px"
+                        android:layout_y="200px"
+                        android:text="Iphone FP"
+                        android:layout_gravity="left|top"
+                        android:layout_weight="0.025">
+                    </Button>
+
+                    <Button
+                        android:id="@+id/btnEdit4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="123dp"
+                        android:layout_y="201px"
+                        android:text="Edit"
+                        android:layout_weight="0.03">
+                    </Button>
+                </LinearLayout>
+
+            </TableRow>
+            <TableRow>
+
+                <LinearLayout >
+                    <Button
+                        android:id="@+id/btn5"
+                        android:layout_width="70pt"
+                        android:layout_height="wrap_content"
+                        android:layout_x="52px"
+                        android:layout_y="200px"
+                        android:text="JavaFP"
+                        android:layout_gravity="left|top"
+                        android:layout_weight="0.025">
+                    </Button>
+
+                    <Button
+                        android:id="@+id/btnEdit5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="123dp"
+                        android:layout_y="201px"
+                        android:text="Edit"
+                        android:layout_weight="0.03">
+                    </Button>
+                </LinearLayout>
+            </TableRow>
+            <TableRow>
+
+                <LinearLayout >
+                    <Button
+                        android:id="@+id/btn6"
+                        android:layout_width="70pt"
+                        android:layout_height="wrap_content"
+                        android:layout_x="52px"
+                        android:layout_y="200px"
+                        android:text="JavaHTP"
+                        android:layout_gravity="left|top"
+                        android:layout_weight="0.025">
+                    </Button>
+
+                    <Button
+                        android:id="@+id/btnEdit6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_x="123dp"
+                        android:layout_y="201px"
+                        android:text="Edit"
+                        android:layout_weight="0.03">
+                    </Button>
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+
+
+
+
+    </FrameLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ClearTags1"
+        android:text="Clear Tags"
+        />
+
+
+
+</LinearLayout>
