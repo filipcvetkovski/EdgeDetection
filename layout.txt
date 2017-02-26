@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/twitter"
+        android:hint="Enter Twitter search query here"
+        tools:textColorLink="@android:color/black"
+        android:textColorLink="@android:color/background_dark" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:columnCount="2"
+        android:rowCount="1"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="226dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewStart"
+            android:id="@+id/query"
+            android:hint="Tag your query"
+            android:padding="5dp"
+            android:inputType="textNoSuggestions"
+            android:textColorLink="@android:color/background_dark">
+
+        </EditText>
+
+        <Button
+            android:id="@+id/btn_Save"
+            android:layout_gravity="top|center"
+            android:text="Save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp" />
+
+    </GridLayout>
+
+    <FrameLayout
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:background="@color/orange"
+        tools:background="@android:color/holo_orange_light"
+        android:id="@+id/frame1">
+
+        <TableLayout
+            android:id="@+id/con1"
+            android:layout_width="289dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25pt"
+            android:layout_marginRight="25pt"
+            android:gravity="left"
+            android:orientation="vertical" >
+
+
+        </TableLayout>
+
+        <ScrollView
+            android:layout_width="338dp"
+            android:layout_height="317dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:text="Tagged Searches"
+                    android:layout_width="332dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/TaggedSearches"
+                    android:textSize="23sp"
+                    android:textAlignment="center"
+                    android:textStyle="normal|bold" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TableRow android:layout_height="match_parent"
+                        android:layout_width="250dp">
+
+                        <Button
+                            android:id="@+id/btn1"
+                            android:layout_height="wrap_content"
+                            android:layout_x="52px"
+                            android:layout_y="200px"
+                            android:text="AndroidFP"
+                            android:layout_gravity="top|center"
+                            android:layout_width="250dp">
+                        </Button>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent" >
+
+                        <Button
+                            android:id="@+id/btnEdit1"
+                            android:layout_height="wrap_content"
+                            android:layout_x="123dp"
+                            android:layout_y="201px"
+                            android:text="Edit"
+                            android:layout_gravity="top|right"
+                            android:layout_width="70dp">
+                        </Button>
+                    </TableRow>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TableRow
+                        android:layout_width="250dp"
+                        android:layout_height="match_parent" >
+
+                        <Button
+                            android:id="@+id/btn2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_x="52px"
+                            android:layout_y="200px"
+                            android:text="Deitel"
+                            android:layout_gravity="left|top"
+                            android:layout_weight="0.03">
+                        </Button>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent" >
+
+                        <Button
+                            android:id="@+id/btnEdit2"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_x="123dp"
+                            android:layout_y="201px"
+                            android:text="Edit"
+                            android:layout_weight="0.03">
+                        </Button>
+
+                    </TableRow>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TableRow
+                        android:layout_width="250dp"
+                        android:layout_height="match_parent" >
+
+                        <Button
+                            android:id="@+id/btn3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_x="52px"
+                            android:layout_y="200px"
+                            android:text="Google"
+                            android:layout_gravity="left|top"
+                            android:layout_weight="0.03">
+                        </Button>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent" >
+
+                        <Button
+                            android:id="@+id/btnEdit3"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_x="123dp"
+                            android:layout_y="201px"
+                            android:text="Edit"
+                            android:layout_weight="0.03">
+                        </Button>
+                    </TableRow>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TableRow
+                        android:layout_width="250dp"
+                        android:layout_height="match_parent" >
+
+                        <Button
+                            android:id="@+id/btn4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_x="52px"
+                            android:layout_y="200px"
+                            android:text="Iphone FP"
+                            android:layout_gravity="left|top"
+                            android:layout_weight="0.03">
+                        </Button>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent" >
+
+                        <Button
+                            android:id="@+id/btnEdit4"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_x="123dp"
+                            android:layout_y="201px"
+                            android:text="Edit"
+                            android:layout_weight="0.03">
+                        </Button>
+                    </TableRow>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TableRow
+                        android:layout_width="250dp"
+                        android:layout_height="match_parent" >
+
+                        <Button
+                            android:id="@+id/btn5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_x="52px"
+                            android:layout_y="200px"
+                            android:text="JavaFP"
+                            android:layout_gravity="left|top"
+                            android:layout_weight="0.03">
+                        </Button>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent" >
+
+                        <Button
+                            android:id="@+id/btnEdit5"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_x="123dp"
+                            android:layout_y="201px"
+                            android:text="Edit"
+                            android:layout_weight="0.03">
+                        </Button>
+                    </TableRow>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TableRow
+                        android:layout_width="250dp"
+                        android:layout_height="match_parent" >
+
+                        <Button
+                            android:id="@+id/btn6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_x="52px"
+                            android:layout_y="200px"
+                            android:text="JavaHTP"
+                            android:layout_gravity="left|top"
+                            android:layout_weight="0.03">
+                        </Button>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent" >
+
+                        <Button
+                            android:id="@+id/btnEdit6"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_x="123dp"
+                            android:layout_y="201px"
+                            android:text="Edit"
+                            android:layout_weight="0.03">
+                        </Button>
+                    </TableRow>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TableRow
+                        android:layout_width="250dp"
+                        android:layout_height="match_parent" >
+
+                        <Button
+                            android:text="CHROME"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/bnt7" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent" >
+
+                        <Button
+                            android:text="EDIT"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/btnedit7" />
+                    </TableRow>
+                </TableRow>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </FrameLayout>
+
+    <Button
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ClearTags"
+        android:text="Clear Tags" />
+
+
+</LinearLayout>
